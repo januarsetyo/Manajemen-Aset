@@ -1,0 +1,26 @@
+# ### Login Admin
+# POST http://127.0.0.1:8000/api/login
+# Content-Type: application/json
+
+# {
+#   "name": "Budi",
+#   "password": "pegawai123"
+# }
+
+# ### Register Pegawai
+GET http://127.0.0.1:8000/api/aset
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOi8vMTI3LjAuMC4xOjgwMDAvYXBpL2xvZ2luIiwiaWF0IjoxNzU2NDU4NTQ3LCJleHAiOjE3NTY0NjIxNDcsIm5iZiI6MTc1NjQ1ODU0NywianRpIjoiRUtpMzVYR2xReGt5UlU3bCIsInN1YiI6IjIiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.wBg0hP1ZACOT8HMfq9Ozld91VnQMOqzvadZITuvlWEU
+Content-Type: application/json
+
+# {
+#   "tipe_aset": "BMN",
+#   "nama": "Laptop Dell",
+#   "kode_aset": "LTP-2025",
+#   "merk": "Dell",
+#   "kondisi": "Baik",
+#   "tgl_pembukuan": "2025-08-29",
+#   "tgl_perolehan": "2025-08-20",
+#   "status_penggunaan": "Digunakan",
+#   "lokasi_id": 1,
+#   "pegawai_id": 2
+# }

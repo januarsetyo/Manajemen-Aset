@@ -1,0 +1,29 @@
+# Laravel specific
+/vendor
+/node_modules
+/public/storage
+/storage/*.key
+.env
+.env.backup
+.phpunit.result.cache
+
+# Laravel logs
+/storage/logs/*.log
+
+# Laravel cache
+bootstrap/cache/*.php
+
+# IDE / Editor
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Composer & NPM debug files
+composer.lock
+npm-debug.log
+yarn-error.log
